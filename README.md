@@ -1,2 +1,2 @@
 # DZ_CD21lo_BCR-seq
-BCR-seq analysis_Code repository, version archived for publication
+BCR-seq analysis_Code repository
