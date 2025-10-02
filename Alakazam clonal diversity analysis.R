@@ -1,4 +1,4 @@
-# Alakazam - clonal diversity analysis; Shazam - Mutational analysis
+# This script performs clonal diversity analysis via Alakazam and mutation analysis via Shazam
 
 install.packages("ggsignif")
 install.packages("ggpubr")
@@ -142,6 +142,7 @@ MutCount_plot_R <- ggplot(HCtsv_DUPCOUNT_obs_count, aes(x=subset, y=mu_count_seq
   theme(axis.title = element_text(size=14))
 
 plot(MutCount_plot_R)
+
 
 
 
